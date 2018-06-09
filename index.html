@@ -13,15 +13,15 @@
     <br>
     <br>
 
-    
     <p>
-        You will be given a random number at the start of the game. 
+        You will be given a random number at the start of the game.
     </p>
     <p>
-        There are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.
+        There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
     </p>
     <p>
-        You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.
+        You win the game by matching your total score to a random number, you lose the game if your total score goes above the random
+        number.
     </p>
     <p>
         The value of each crystal is hidden from you until you click on it.
@@ -34,9 +34,14 @@
     <br>
     <br>
 
+    <div> Try to Match This Number!
+        <div id="solutionDiv"></div>
+    </div>
+
+    <br>
+
     <div>Wins:
-        <div id="wins">
-        </div>
+        <div id="wins"></div>
     </div>
     <div>Losses:
         <div id="losses"></div>
@@ -44,13 +49,13 @@
     <div>Total Score:
         <div id="totalScore"></div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
     <img src="assets/images/redCrystal.jpg" id="redCrystal" />
     <img src="assets/images/blueCrystal.jpg" id="blueCrystal" />
     <img src="assets/images/yellowCrystal.jpg" id="yellowCrystal" />
@@ -62,9 +67,7 @@
         $("redCrystal").click(function () {
             $("button").text(redCrystal);
         });
-
     </script>
-
     <script type="text/javascript"></script>
 </body>
 
