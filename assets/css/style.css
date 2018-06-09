@@ -1,0 +1,25 @@
+body {
+    background-color: dimgrey;
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px #ffffff;
+}
+
+div {
+    font-size: 40px;
+    font-family: sans-serif; 
+}
+
+img {
+    width: 125px;
+    height: 125px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
